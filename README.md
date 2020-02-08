@@ -1,5 +1,5 @@
 # A modified grub allowing tweaking hidden BIOS settings.
-based on grub with [setup_var patch (invalid link now)](http://luna.vmars.tuwien.ac.at/~froemel/insydeh2o_efi/grub2-add-setup_var-cmd.patch) and [setup_var2 patch](https://habr.com/post/190354/) with setup\_var\_3 patch as a wordaround to duplicate Setup vairable.
+based on grub with [setup_var patch (invalid link now)](http://luna.vmars.tuwien.ac.at/~froemel/insydeh2o_efi/grub2-add-setup_var-cmd.patch) and [setup_var2 patch](https://habr.com/post/190354/) with setup\_var3 patch as a wordaround to duplicate Setup vairable.
 
 As said in a [guide](https://github.com/acidanthera/AppleSupportPkg#verifymsre2) about changing hidden "CFG Lock" BIOS setting, by using a modified GRUB shell, we can change any hidden UEFI BIOS settings. But here comes some errors on my Dell XPS 8930, so I have the shell patched and added a new command `setup_var3` for this situation.
 
