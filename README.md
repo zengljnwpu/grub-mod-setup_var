@@ -63,7 +63,7 @@ Build:
 ```
 cd grub-2.00+20130519
 ./autogen.sh
-./configure --with-platform=efi --prefix=<temporary install prefix>
+./configure --with-platform=efi --prefix=<temporary install prefix> CC=/usr/bin/gcc-4.8
 make
 make install
 
